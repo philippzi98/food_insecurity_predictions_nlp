@@ -30,14 +30,14 @@ Finally, the processed time series are added as inputs to our regression models 
 ## Data
 We utilized two types of data: food insecurity classifications and news articles. 
 
-Our dataset on **food insecurity** comes from the [FEWS NET](https://fews.net/data) for district level information of 37 countries. Food insecurity is classified into five phases following the IPC framework: (i) minimal, (ii) stressed, (iii) crisis, (iv) emergency, and (v) famine. More information on the IPC classification is available [here](https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Technical_Manual_3_Final.pdf). 
+Our dataset on ```food insecurity``` comes from the [FEWS NET](https://fews.net/data) for district level information of 37 countries. Food insecurity is classified into five phases following the IPC framework: (i) minimal, (ii) stressed, (iii) crisis, (iv) emergency, and (v) famine. More information on the IPC classification is available [here](https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Technical_Manual_3_Final.pdf). 
 
-Our dataset of **news articles** comes from [Factiva](https://www.dowjones.com/professional/factiva/), a digital archive of global news content. Factiva aggregates more than 33,000 news resources from 200 countries in 28 languages. Each news article is tagged with geographic region codes to ascertain its relevance to a specific country. We collect the text of the 11.2 million articles in English obtained from 5421 news sources.
+Our dataset of ```news articles``` comes from [Factiva](https://www.dowjones.com/professional/factiva/), a digital archive of global news content. Factiva aggregates more than 33,000 news resources from 200 countries in 28 languages. Each news article is tagged with geographic region codes to ascertain its relevance to a specific country. We collect the text of the 11.2 million articles in English obtained from 5421 news sources.
 
 &nbsp;
 
 ## License
-This project is licensed under the MIT License - see the [```LICENSE```](https://github.com/philippzi98/food_insecurity_predictions_nlp/) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/philippzi98/food_insecurity_predictions_nlp/) file for details.
 
 &nbsp;
 
