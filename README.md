@@ -13,16 +13,16 @@ In this public repository we outline our methodolgy for [predicting food crises 
 ## Methods
 This repository includes multiple individual features, which we employed for our research, that can be utilized in isolation.
 
-### Feature 1: Causal Feature Extraction
+### Feature 1: [Causal Feature Extraction](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Feature%201:%20Causal%20Feature%20Extraction)
 This feature extracts causal indicators from (news) sentences. Our scrutinized news dataset stems from the Factiva API, wherefore we are not able to share it publicly. Therefore, we have included a sample "sentences.txt" that should allow to reproduce the method on a news text of your choice.
 
-### Feature 2: Granger Test for Time Series
+### Feature 2: [Granger Test for Time Series](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Feature%202:%20Time%20Series%20Granger%20Test)
 Once the causal factors are extracted, we employ a Granger test on the time series of the factors in order to filter out non-predictive indicators. 
 
-### Feature 3: Visualization
+### Feature 3: [Visualization](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Feature%203:%20Visualization)
 The findings of identifying predictive and non-predictive factors are then visualized through maps and scatter plots.
 
-### Feature 4: Regression Modelling
+### Feature 4: [Regression Modelling](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Feature%204:%20Regression%20Modelling)
 Finally, the processed time series are added as inputs to our regression models for food insecurity.
 
 &nbsp;
