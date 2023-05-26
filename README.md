@@ -41,6 +41,25 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 &nbsp;
 
+## Citation
+If you find this project useful in your research, please cite the following paper.
+
+```bibtex
+@article{balashankar2023predicting,
+  author = {Ananth Balashankar  and Lakshminarayanan Subramanian  and Samuel P. Fraiberger },
+  title = {Predicting food crises using news streams},
+  journal = {Science Advances},
+  volume = {9},
+  number = {9},
+  pages = {eabm3449},
+  year = {2023},
+  doi = {10.1126/sciadv.abm3449},
+  URL = {https://www.science.org/doi/abs/10.1126/sciadv.abm3449},
+}
+```
+
+&nbsp;
+
 ## Authors & Contact
 In case of any questions or remarks, please feel free to reach out to us via [e-mail](mailto:sfraiberger@worldbank.org).
 - **Samuel Paul Fraiberger** - [spfraib](https://github.com/spfraib) - *Affiliation: The World Bank*
