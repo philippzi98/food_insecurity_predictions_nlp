@@ -19,11 +19,12 @@ This feature extracts causal indicators from (news) sentences. Our scrutinized n
 ### Feature 2: [Granger Test for Time Series](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Feature%202:%20Time%20Series%20Granger%20Test)
 Once the causal factors are extracted, we employ a Granger test on the time series of the factors in order to filter out non-predictive indicators. 
 
-### Feature 3: [Visualization](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Feature%203:%20Visualization)
-The findings of identifying predictive and non-predictive factors are then visualized through maps and scatter plots.
+### Feature 3: [Regression Modelling](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Feature%204:%20Regression%20Modelling)
+Then, the processed time series are added as inputs to our regression models for food insecurity.
 
-### Feature 4: [Regression Modelling](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Feature%204:%20Regression%20Modelling)
-Finally, the processed time series are added as inputs to our regression models for food insecurity.
+### Feature 4: [Visualization](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Feature%203:%20Visualization)
+The findings of identifying predictive and non-predictive factors are visualized through maps and scatter plots.
+
 
 &nbsp;
 
