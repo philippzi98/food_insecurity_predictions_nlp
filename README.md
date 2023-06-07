@@ -21,14 +21,13 @@ Causal extraction refers to the natural language processing task of extracting c
 The frame-semantic parser allows us to extract text features related to food insecurity, but fails to capture words semantically close to a seed that are also relevant. We expand our set of text features with semantically similar key phrases. We consider as candidate features all the unigrams in our news corpus and all the bigrams and trigrams occurring more than 1000 times. We compute the word mover’s distance between each original feature and each candidate feature, and we keep the candidates whose distance to an original feature is smaller than 6.
 
 ### Step 3 - [Validating News Features](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%203%20-%20Validating%20News%20Features)
-Having uncovered the text features semantically related to food insecurity, we then discard non-predictive indicators using a Granger causality test.
+After uncovering the text features semantically related to food insecurity in Steps 1 and 2, we cross-reference the extracted features with time-stamped news corpora. Then, we discard non-predictive indicators of the resulting time series using a Granger causality test.
 
 ### Step 4 - [Regression Modelling](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%204%20-%20Regression%20Modelling)
-Then, the processed time series are added as inputs to our regression models for food insecurity.
+The processed time series are added as inputs to our regression model for food insecurity. We employ a Random Forest (RF) regression that is fed with the news features in addition to traditional food insecurity features. The model can be fed with use case dependent external features.
 
 ### Step 5 - [Visualization](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%205%20-%20Visualization)
-The findings of identifying predictive and non-predictive factors are visualized through maps and scatter plots.
-
+The findings of the food insecurity project are visualized through maps and scatter plots. We share code to replicate the visualization of identifying predictive/non-predictive features and episodes.
 
 &nbsp;
 
