@@ -6,7 +6,7 @@ For the identification of causal features, we utilized the methodology presented
 <img src="https://raw.githubusercontent.com/spfraib/food_crisis_predictions_nlp/main/1.%20Fig1_causal_feature_extraction/fig/fsp-example.png"/>
 <p/>
 
-You can follow their instructions [here](https://github.com/swabhs/open-sesame) to replicate the causal feature extraction for your own project.
+You can follow their instructions [here](https://github.com/swabhs/open-sesame) to replicate the causal feature extraction for your own project. You can use the example file "sentences.txt" that we have provided. Please note that input needs to be specified in a file containing one sentence per line.
 
 Follow the rest of our project's methodology with the [Granger Test for Time Series](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Feature%202:%20Time%20Series%20Granger%20Test).
 
