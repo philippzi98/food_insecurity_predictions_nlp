@@ -13,20 +13,20 @@ In this public repository we outline our methodolgy for [predicting food crises 
 ## Methods
 This repository includes multiple individual features, which we employed for our research, that can be utilized in isolation.
 
-### Step 1: [Causal Feature Extraction](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Feature%201:%20Causal%20Feature%20Extraction)
+### Step 1 - [Causal Feature Extraction](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%201%20-%20Causal%20Feature%20Extraction)
 
 Causal extraction refers to the natural language processing task of extracting cause-effect relations from text, in our case from news sentences. We use a frame-semantic parser to extract semantic causes of food insecurity. Our scrutinized news dataset stems from the [Factiva API](https://www.dowjones.com/professional/factiva/), wherefore we are not able to share it publicly. We have included a sample "sentences.txt" that should allow to reproduce the method on a news text of your choice.
 
-### Step 2: Keyword Expansion
-While the frame-semantic parser allows us to extract text features related to food insecurity, it fails to capture words semantically close to a seed that are also relevant. For this reason, we expand our set of text features with semantically similar key phrases. We consider as candidate features all the unigrams in our news corpus and all the bigrams and trigrams occurring more than 1000 times. We compute the word mover’s distance between each original feature and each candidate feature, and we keep the candidates whose distance to an original feature is smaller than 6.
+### Step 2 - Keyword Expansion
+The frame-semantic parser allows us to extract text features related to food insecurity, but fails to capture words semantically close to a seed that are also relevant. We expand our set of text features with semantically similar key phrases. We consider as candidate features all the unigrams in our news corpus and all the bigrams and trigrams occurring more than 1000 times. We compute the word mover’s distance between each original feature and each candidate feature, and we keep the candidates whose distance to an original feature is smaller than 6.
 
-### Step 3: [Validating News Features](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Feature%202:%20Time%20Series%20Granger%20Test)
-Once the causal factors are extracted, we employ a Granger test on the time series of the factors in order to filter out non-predictive indicators. 
+### Step 3 - [Validating News Features](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%203%20-%20Validating%20News%20Features)
+Having uncovered the text features semantically related to food insecurity, we then discard non-predictive indicators using a Granger causality test.
 
-### Step 4: [Regression Modelling](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Feature%204:%20Regression%20Modelling)
+### Step 4 - [Regression Modelling](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%204%20-%20Regression%20Modelling)
 Then, the processed time series are added as inputs to our regression models for food insecurity.
 
-### Step 5: [Visualization](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Feature%203:%20Visualization)
+### Step 5 - [Visualization](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%205%20-%20Visualization)
 The findings of identifying predictive and non-predictive factors are visualized through maps and scatter plots.
 
 
