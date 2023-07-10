@@ -5,4 +5,4 @@ Finally, the processed time series are then added as input to our regression mod
 
 ---
 
-Follow the rest of our project's methodology with [Classification Modelling](...).
+Follow the rest of our project's methodology with [Classification Modelling](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%206%20-%20Classification%20Modelling).
