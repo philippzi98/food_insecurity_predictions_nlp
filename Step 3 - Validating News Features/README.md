@@ -1,7 +1,7 @@
 # Validating News Features
 
 ### Time Series Extraction
-We take the factors that we extracted in Step 1 and cross-reference them with the news data. The latter is in the format of a time-stamped corpus. To replicate this part, you can run the attached Python file [granger_timeline.py]().
+We take the factors that we extracted in Steps 1 and 2, and we cross-reference them with the news data. The latter is in the format of a time-stamped corpus. To replicate this part, you can run the attached Python file [granger_timeline.py]().
 
 &nbsp;
 
