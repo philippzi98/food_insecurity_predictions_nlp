@@ -13,21 +13,26 @@ In this public repository we outline our methodolgy for [predicting food crises 
 ## Methods
 This repository includes multiple individual features, which we employed for our research, that can be utilized in isolation.
 
-### Step 1 - [Causal Feature Extraction](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%201%20-%20Causal%20Feature%20Extraction)
+### Step 1 - [Seeds Selection](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%201%20-%20Seeds%20Selection)
+Starting with the three manually selected seed phrases "food insecurity," "hunger crisis," and "famine," additional potential seed phrases were sought from all unigrams, bigrams, and trigrams in the dataset of 11.2 million articles.
 
-Causal extraction refers to the natural language processing task of extracting cause-effect relations from text, in our case from news sentences. We use a frame-semantic parser to extract semantic causes of food insecurity. Our scrutinized news dataset stems from the [Factiva API](https://www.dowjones.com/professional/factiva/), wherefore we are not able to share it publicly. We have included a sample "sentences.txt" that should allow to reproduce the method on a news text of your choice.
+### Step 2 - [Frame-Semantic Parsing](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%202%20-%20Frame-Semantic%20Parsing)
+Causal extraction refers to the natural language processing task of extracting cause-effect relations from text, in our case from news sentences. We use a frame-semantic parser to extract semantic causes of food insecurity. Our scrutinized news dataset stems from the [Factiva API](https://www.dowjones.com/professional/factiva/), wherefore we are not able to share it publicly. We have included a sample [sentences.txt](https://github.com/philippzi98/food_insecurity_predictions_nlp/blob/main/Step%202%20-%20Frame-Semantic%20Parsing/sentences.txt) file that should allow to reproduce the method on a news text of your choice.
 
-### Step 2 - [Seed Selection and Keyword Expansion](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%202%20-%20Seed%20Selection%20and%20Keyword%20Expansion)
-The frame-semantic parser allows us to extract text features related to food insecurity, but fails to capture words semantically close to a seed that are also relevant. We expand our set of text features with semantically similar key phrases. We consider as candidate features all the unigrams in our news corpus and all the bigrams and trigrams occurring more than 1000 times. We compute the word mover’s distance between each original feature and each candidate feature, and we keep the candidates whose distance to an original feature is smaller than 6.
+### Step 3 - [Keyword Expansion](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%203%20-%20Keyword%20Expansion)
+While the frame-semantic parser allows us to extract text features related to food insecurity, it fails to capture words semantically close to a seed that are also relevant. Therefore, we expand the set of text features with semantically similar key phrases.
 
-### Step 3 - [Validating News Features](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%203%20-%20Validating%20News%20Features)
+### Step 4 - [Validating News Features](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%204%20-%20Validating%20News%20Features)
 After uncovering the text features semantically related to food insecurity in Steps 1 and 2, we cross-reference the extracted features with time-stamped news corpora. Then, we discard non-predictive indicators of the resulting time series using a Granger causality test.
 
-### Step 4 - [Regression Modelling](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%204%20-%20Regression%20Modelling)
+### Step 5 - [Regression Modelling](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%205%20-%20Regression%20Modelling)
 The processed time series are added as inputs to our regression model for food insecurity. We employ a Random Forest (RF) regression that is fed with the news features in addition to traditional food insecurity features. The model can be fed with use case dependent external features.
 
-### Step 5 - [Visualization](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%205%20-%20Visualization)
-The findings of the food insecurity project are visualized through maps and scatter plots. We share code to replicate the visualization of identifying predictive/non-predictive features and episodes.
+### Step 6 - [Classification Modelling](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%206%20-%20Classification%20Modelling)
+We also developed a classification model to detect food insecurity crises. We define a food crisis outbreak as the date when the IPC phase raises to a value of 3 or more for at least two consecutive periods while the previous period’s phase is smaller or equal to 2.
+
+### Step 7 - [Visualizations](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%207%20-%20Visualizations)
+The findings of the food insecurity project are visualized through maps and scatter plots. We share code to replicate the visualizations of identifying predictive/non-predictive features and episodes.
 
 &nbsp;
 
