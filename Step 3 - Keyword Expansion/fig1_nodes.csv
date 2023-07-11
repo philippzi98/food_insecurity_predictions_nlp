@@ -1,0 +1,168 @@
+Id,label,freq_abs,beta,type,freq_context,cluster
+0,land seizures,10151,8.3372,Scientific articles,0.0034654078749099997,land-related issues
+1,slashed export,5801,2.5382,News articles,0.001598804094537,economic issues
+2,price rise,39474,4.2369,Scientific articles,0.014944821273687,economic issues
+3,mass hunger,8541,7.0365,Keywords expansion,0.0027979071654400003,food crisis
+4,cyclone,22822,4.2374,Scientific articles,0.005987521334042,weather shocks
+5,failed crops,6381,4.8193,Keywords expansion,0.0015668280126470001,agricultural production issues
+6,disruption to farming,3690,2.0394,Keywords expansion,0.0015268579102830002,agricultural production issues
+7,massive starvation,8588,5.3917,Scientific articles,0.0036452733355450003,food crisis
+8,abnormally low rainfall,1626,1.5854,Scientific articles,0.000659506688997,weather shocks
+9,withheld relief,7748,0.2904,Scientific articles,0.004868358467866,humanitarian aid
+10,international alarm,2102,0.85,Scientific articles,0.0006195365866330001,humanitarian aid
+11,reduced national output,9562,1.3663,Keywords expansion,0.004192863737924,economic issues
+12,oppressive regimes,1564,4.4635,Scientific articles,0.000683488750415,political instability
+13,pests,13884,3.1139,Scientific articles,0.0050362328977919995,pests and diseases
+14,continued deterioration,2593,6.882000000000001,News articles,0.001011243589795,other
+15,forests destroyed,6576,9.5316,News articles,0.003513371997746,land-related issues
+16,man-made disaster,5688,0.3189,News articles,0.0029178174725309996,other
+17,food insecurity,31608,4.2829,Scientific articles,0.126337499550336,food crisis
+18,harvests are devastated,6337,7.0719,Keywords expansion,0.003073700871748,agricultural production issues
+19,humanitarian situation,34453,1.4384,Keywords expansion,0.018382250076943,humanitarian aid
+20,economic impoverishment,4510,9.4549,Scientific articles,0.001938549964626,economic issues
+21,clan battle,2370,8.4103,Scientific articles,0.00135498647012,conflicts and violence
+22,population crisis,2765,8.9337,Scientific articles,0.000883339262232,other
+23,aid appeal,9099,6.1712,Scientific articles,0.002050466251244,humanitarian aid
+24,weather extremes,3435,9.8202,Keywords expansion,0.001374971521302,weather shocks
+25,anti-western policies,1837,7.8943,News articles,0.0009872615283769998,political instability
+26,rinderpest,9047,8.9595,Scientific articles,0.004956292693066,pests and diseases
+27,inadequate rainfall,9140,1.8883,Keywords expansion,0.004668507956049,weather shocks
+28,lack of authority,7257,7.1342,News articles,0.002298280885897,political instability
+29,acute hunger,2997,9.3759,News articles,0.011979039678321,food crisis
+30,foreign troops,65166,7.6605,News articles,0.028059011859128995,conflicts and violence
+31,increased external debt,5717,1.1958,Scientific articles,0.002965781595367,economic issues
+32,drought,139740,4.0704,Scientific articles,0.009181132512879999,weather shocks
+33,conflict,754194,8.9743,Scientific articles,0.012910343063389,conflicts and violence
+34,failed rains,4429,9.426,Scientific articles,0.002965781595367,weather shocks
+35,makeshift camps,6457,7.4341,News articles,0.001902576872499,forced displacement
+36,civilians uprooted,1087,1.2121,Scientific articles,0.000547590402379,forced displacement
+37,dysfunction,19332,2.1728,Scientific articles,0.010943814027108001,food crisis
+38,foreign aid,42924,5.7803,News articles,0.009700743843605,humanitarian aid
+39,violent suppression,4155,5.9966,Scientific articles,0.002070451302426,conflicts and violence
+40,military dictatorship,19916,6.8037,Scientific articles,0.006854872555329001,political instability
+41,climatic hazards,3446,1.4249,Keywords expansion,0.000943294415777,weather shocks
+42,migration,220003,1.3295,Scientific articles,0.099505569833764,forced displacement
+43,land grab,12849,4.6513,News articles,0.007270561619908001,land-related issues
+44,terrorism,519898,1.9367,Scientific articles,0.138272572116057,conflicts and violence
+45,bombing campaign,19563,9.558,News articles,0.009273063748316,conflicts and violence
+46,collapsing economy,3459,2.7162,Keywords expansion,0.001590810074065,economic issues
+47,military junta,21493,9.5054,Scientific articles,0.010839891760963002,political instability
+48,climate change,89612,2.7441,Scientific articles,0.038115489613768996,environmental issues
+49,rising inflation,11059,9.8774,Scientific articles,0.005655769484426,economic issues
+50,international terrorists,10059,2.2373,Scientific articles,0.005176128256064,conflicts and violence
+51,cycle of poverty,6435,8.7294,News articles,0.0035173690079820003,economic issues
+52,bad harvests,6205,1.4199,Scientific articles,0.0039850192056340005,agricultural production issues
+53,destructive pattern,5862,4.5062,Scientific articles,0.0022183406811700002,conflicts and violence
+54,price of food,9861,9.4316,Scientific articles,0.00498427176472,economic issues
+55,corrupt government,16853,4.448,Scientific articles,0.009596821577459998,political instability
+56,militia groups,18119,3.4367,Scientific articles,0.004608552802504001,conflicts and violence
+57,poor soil quality,3310,0.9427,Keywords expansion,0.0015108698693379998,land-related issues
+58,cattle plague,2643,5.9048,Scientific articles,0.0014748967772109998,pests and diseases
+59,food assistance,18324,4.3106,Keywords expansion,0.009756701986914,humanitarian aid
+60,continued strife,7199,9.2034,Scientific articles,0.001970526046517,conflicts and violence
+61,ecological crisis,9965,3.0816,Scientific articles,0.006079452569478,environmental issues
+62,hunger crises,9114,0.9376,Keywords expansion,0.036428751294032,food crisis
+63,rising food prices,7913,8.1683,Scientific articles,0.0030257367489120003,economic issues
+64,restricted humanitarian access,3627,4.5888,Scientific articles,0.002266304804007,humanitarian aid
+65,water availability,9294,7.0105,News articles,0.004528612597777,weather shocks
+66,alarming level,9421,8.0077,News articles,0.002018490169353,other
+67,police torture,10523,2.0129,Scientific articles,0.005783673811989001,conflicts and violence
+68,potato blight,7733,6.2276,Keywords expansion,0.0038331328166529995,pests and diseases
+69,the offensive,34698,3.7846,Scientific articles,0.015996034965846,conflicts and violence
+70,land invasions,9037,5.2598,Scientific articles,0.004468657444232,land-related issues
+71,clan warfare,3623,0.8761,News articles,0.001462905746502,conflicts and violence
+72,stolen food aid,6058,4.3346,Keywords expansion,0.002781919124495,humanitarian aid
+73,politically engineered,9713,1.0752,Scientific articles,0.0044486723930499995,political instability
+74,scanty rainfall,6580,6.1668,Scientific articles,0.0038371298268890003,weather shocks
+75,water distribution shortages,7384,4.7388,Keywords expansion,0.0031056769536390006,agricultural production issues
+76,cattle death,5608,7.8705,Keywords expansion,0.001267052244921,agricultural production issues
+77,asylum seekers,25558,3.0998,Scientific articles,0.0071786303844719995,forced displacement
+78,major offensive,9440,0.1557,Scientific articles,0.003309524475692,conflicts and violence
+79,without international aid,8760,6.6674,News articles,0.004932310631648,humanitarian aid
+80,prolonged dry spell,5545,4.3367,Keywords expansion,0.0024581612953509997,weather shocks
+81,rise,1377032,3.5634,Scientific articles,0.011015760211362,economic issues
+82,restricted relief flights,1363,6.8046,Scientific articles,0.00047164720788899997,humanitarian aid
+83,civil strife,13991,0.3718,Keywords expansion,0.004300783014305001,conflicts and violence
+84,aid workers died,2154,9.2164,Scientific articles,0.001514866879574,humanitarian aid
+85,rival warlords,5373,9.4735,Scientific articles,0.002478146346533,conflicts and violence
+86,land reform,41067,1.3707,Keywords expansion,0.014457186024853,land-related issues
+87,lack of roads,2772,5.1717,News articles,0.001179118019721,agricultural production issues
+88,pushing peasants off,6712,8.1403,Keywords expansion,0.002374224080388,land-related issues
+89,locusts,8566,4.6421,News articles,0.004684495996994,pests and diseases
+90,gangs of bandits,7490,3.8725,Scientific articles,0.0031456470560020005,conflicts and violence
+91,repression,47806,9.961,Keywords expansion,0.015800181464265,conflicts and violence
+92,humanitarian disaster,15271,8.2224,Scientific articles,0.004744451150539001,humanitarian aid
+93,years of warfare,9517,0.4448,Keywords expansion,0.003253566332383,conflicts and violence
+94,floods,66570,8.7211,Scientific articles,0.02105225291482,weather shocks
+95,unable to sow,1136,4.1752,News articles,0.00035173690079800006,agricultural production issues
+96,transport bottleneck,9160,3.6919,Scientific articles,0.004800409293848,agricultural production issues
+97,pirates,58269,7.9804,News articles,0.027231630740206,conflicts and violence
+98,reduced imports,2768,6.9882,Scientific articles,0.001127156886649,economic issues
+99,apathy,22556,2.997,Keywords expansion,0.011003769180653,food crisis
+100,coup,527508,4.9444,Scientific articles,0.183822500769424,political instability
+101,epidemics,17647,0.1593,News articles,0.007250576568726999,pests and diseases
+102,siege,87720,8.7949,Scientific articles,0.039742272779961,conflicts and violence
+103,power struggle,29977,6.074,Keywords expansion,0.009624800649114001,political instability
+104,livestock had died,1668,9.4386,Scientific articles,0.0011071718354670002,agricultural production issues
+105,blockade,34132,4.4458,Scientific articles,0.016699508767442,conflicts and violence
+106,burning houses,9967,9.021,Scientific articles,0.0039850192056340005,land-related issues
+107,brain drain,7744,3.8791,News articles,0.004216845799342,economic issues
+108,severe rains,4435,7.4873,Keywords expansion,0.002673999848114,weather shocks
+109,infrastructure damage,7039,6.9902,Keywords expansion,0.003829135806417,agricultural production issues
+110,land degradation,5770,5.5578,News articles,0.002270301814243,land-related issues
+111,human rights abuses,57870,3.5063,Keywords expansion,0.033614856087647,conflicts and violence
+112,lack of cultivation,1551,5.9206,News articles,0.000931303385068,agricultural production issues
+113,harvest decline,6871,6.7073,Scientific articles,0.002374224080388,agricultural production issues
+114,flee,286920,5.6664,Scientific articles,0.16395336288456197,forced displacement
+115,economic crisis,53800,6.1767,Scientific articles,0.029925615639502003,economic issues
+116,greenhouse gases,8527,7.8439,Scientific articles,0.002406200162279,environmental issues
+117,prolonged fighting,5625,3.4939999999999998,Scientific articles,0.002614044694568,conflicts and violence
+118,tragedy,106500,2.6545,Scientific articles,0.022435218456595,other
+119,slave trade,10112,2.0178,News articles,0.004048971369416,other
+120,environmental degradation,16565,7.2719,News articles,0.003641276325309,environmental issues
+121,infant mortality,16418,8.2252,Keywords expansion,0.007702238725433,food crisis
+122,catastrophe,50612,2.0461,Scientific articles,0.019049750786412,other
+123,wreaked havoc,6419,3.7854,Scientific articles,0.003185617158366,other
+124,internal strife,9523,3.2855,Scientific articles,0.004628537853685001,conflicts and violence
+125,malnourished,23134,3.4275,Scientific articles,0.092466834807564,food crisis
+126,secession,42924,3.694,Scientific articles,0.022303317118794998,political instability
+127,natural disaster,36672,0.1095,Scientific articles,0.019913104997461996,environmental issues
+128,life-threatening hunger,4314,9.5428,Scientific articles,0.017243102159584998,food crisis
+129,air attack,19920,2.6021,Scientific articles,0.011827153289340002,conflicts and violence
+130,corruption,515890,3.8755,Scientific articles,0.284567143776455,political instability
+131,call for donations,7840,0.5798,Scientific articles,0.003993013226107,humanitarian aid
+132,collapse of government,8753,1.4695,News articles,0.004080947451306,political instability
+133,international intervention,12933,3.0528,Scientific articles,0.0056797515458440005,humanitarian aid
+134,refugees,282894,9.3076,Scientific articles,0.004924316611175,forced displacement
+135,disrupted trade,5578,9.5207,News articles,0.0016028011047739999,economic issues
+136,lack of agricultural infrastructure,2877,5.2581,Keywords expansion,0.001366977500829,agricultural production issues
+137,rebel insurgency,10030,1.7732,News articles,0.00239420913157,conflicts and violence
+138,brutal government,8831,3.2353,Scientific articles,0.004552594659195,conflicts and violence
+139,looting,71207,2.6651,Keywords expansion,0.030788969850552003,conflicts and violence
+140,displaced,253773,9.9276,Scientific articles,0.007046729046673,forced displacement
+141,food crisis,23135,6.456,News articles,0.09247083181780001,food crisis
+142,lack of rains,9526,2.2694,News articles,0.003617294263891,weather shocks
+143,lack of alternatives,1768,1.099,Scientific articles,0.000891333282705,other
+144,regimes were toppled,5783,6.1256,News articles,0.0019225619236809999,political instability
+145,jihadist groups,10231,4.0104,News articles,0.002386215111097,conflicts and violence
+146,toll on livestock,6523,1.4878,Scientific articles,0.002006499138644,agricultural production issues
+147,shortage of rains,4801,9.8278,News articles,0.0029457965441849997,weather shocks
+148,devastated the economy,1853,3.0979,Scientific articles,0.00047564421812499994,economic issues
+149,self reliance,9473,7.1071,Keywords expansion,0.004340753116669001,humanitarian aid
+150,cholera outbreak,17156,4.4681,News articles,0.008669515202628,pests and diseases
+151,international embargo,4134,4.1079,News articles,0.001870600790609,humanitarian aid
+152,farmland,22355,7.4506,Keywords expansion,0.012466674927155,land-related issues
+153,totalitarian,14926,2.72,Keywords expansion,0.004616546822976,political instability
+154,authoritarian,5106,6.4252,Keywords expansion,0.001838624708718,political instability
+155,dictators,17620,8.1209,Keywords expansion,0.007118675230926999,political instability
+156,clans,7491,0.3631,Keywords expansion,0.0024741493362960003,conflicts and violence
+157,gastrointestinal,12736,1.4180000000000001,Keywords expansion,0.007130666261636,food crisis
+158,terrorist,9824,5.2789,Keywords expansion,0.0035773241615269995,conflicts and violence
+159,warlord,10045,2.2968,Keywords expansion,0.00440470528045,conflicts and violence
+160,d'etat,12597,3.0210000000000004,Keywords expansion,0.004728463109593999,political instability
+161,overthrow,23220,3.2931,Keywords expansion,0.012054982872811001,political instability
+162,convoys,17219,3.0925,Keywords expansion,0.00831777830183,conflicts and violence
+163,carbon,14456,6.1794,Keywords expansion,0.006611054930912,environmental issues
+164,mayhem,8504,5.8204,Keywords expansion,0.0036532673560179998,conflicts and violence
+165,dehydrated,17688,2.8424,Keywords expansion,0.004264809922178,food crisis
+166,mismanagement,6645,5.6228,Keywords expansion,0.0016427712071370002,political instability
