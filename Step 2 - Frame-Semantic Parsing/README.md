@@ -10,4 +10,4 @@ You can follow their instructions [here](https://github.com/swabhs/open-sesame) 
 
 ---
 
-Follow the rest of our project's methodology with the [Keyword Expansion](...).
+Follow the rest of our project's methodology with the [Keyword Expansion](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%203%20-%20Keyword%20Expansion).
