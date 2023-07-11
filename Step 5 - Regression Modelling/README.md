@@ -9,6 +9,8 @@ In practical terms, the processed time series from [Step 4 - Validating News Fea
 
 If you are not interested in the earlier steps of our methodology, you can use the provided time series data file, [time_series_with_causes_zscore_full.csv](https://github.com/philippzi98/food_insecurity_predictions_nlp/blob/main/Step%205%20-%20Regression%20Modelling/time_series_with_causes_zscore_full.csv), and respectively adapt the filepath in the notebook [rf_regression_modelling.ipynb](https://github.com/philippzi98/food_insecurity_predictions_nlp/blob/main/Step%205%20-%20Regression%20Modelling/rf_regression_modelling.ipynb).
 
+&nbsp;
+
 ---
 
 Follow the rest of our project's methodology with [Visualizations](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%206%20-%20Visualizations).
