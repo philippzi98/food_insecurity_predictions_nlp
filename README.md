@@ -28,10 +28,7 @@ After uncovering the text features semantically related to food insecurity in St
 ### Step 5 - [Regression Modelling](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%205%20-%20Regression%20Modelling)
 The processed time series are added as inputs to our regression model for food insecurity. We employ a Random Forest (RF) regression that is fed with the news features in addition to traditional food insecurity features. The model can be fed with use case dependent external features.
 
-### Step 6 - [Classification Modelling](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%206%20-%20Classification%20Modelling)
-We also developed a classification model to detect food insecurity crises. We define a food crisis outbreak as the date when the IPC phase raises to a value of 3 or more for at least two consecutive periods while the previous period’s phase is smaller or equal to 2.
-
-### Step 7 - [Visualizations](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%207%20-%20Visualizations)
+### Step 6 - [Visualizations](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%206%20-%20Visualizations)
 The findings of the food insecurity project are visualized through maps and scatter plots. We share code to replicate the visualizations of identifying predictive/non-predictive features and episodes.
 
 &nbsp;
