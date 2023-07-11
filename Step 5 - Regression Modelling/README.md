@@ -1,7 +1,13 @@
 # Regression Modelling
+We utilize a random forest (RF) regression to predict the IPC index of food insecurity. To showcase the value-add of news data, we use the same model infrastructure for our baseline model only utilizing traditional indicators, the model only utilizing news indicators, and the ultimate model utilizing both traditional and news data. The latter is estimated as follows:
 
-Finally, the processed time series are then added as input to our regression models for food insecurity in the iPython notebook: "3. Fig3_regression.ipynb". This notebook generates the data that is plotted in Fig 3. Please download the processed time series dataset from https://drive.google.com/drive/folders/1OtNqeDjTW7IVlnfgYiMyrIbvAyx4q_27?usp=sharing and change the filepath in the notebook to a relevant path in your directory.
+<p align="center">
+<img src="https://drive.google.com/uc?export=view&id=1FMOd1gVUiJq3T3KYiVRJIcLZVKNyweHS" alt="Random forest regression model to predict IPC index."/>
+<p/>
 
+In practical terms, the processed time series from [Step 4 - Validating News Features](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%204%20-%20Validating%20News%20Features) serve as input to this regression model in the attached notebook [rf_regression_modelling.ipynb](https://github.com/philippzi98/food_insecurity_predictions_nlp/blob/main/Step%205%20-%20Regression%20Modelling/rf_regression_modelling.ipynb). The output data can then be used to generate the visuals in [Step 7 - Visualizations](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%207%20-%20Visualizations).
+
+If you are not interested in the earlier steps of our methodology, you can download the processed time series data set from [here](https://drive.google.com/drive/folders/1OtNqeDjTW7IVlnfgYiMyrIbvAyx4q_27?usp=sharing) and respectively adapt the filepath in the notebook [rf_regression_modelling.ipynb](https://github.com/philippzi98/food_insecurity_predictions_nlp/blob/main/Step%205%20-%20Regression%20Modelling/rf_regression_modelling.ipynb).
 
 ---
 
