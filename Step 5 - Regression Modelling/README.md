@@ -11,4 +11,4 @@ If you are not interested in the earlier steps of our methodology, you can use t
 
 ---
 
-Follow the rest of our project's methodology with [Classification Modelling](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%206%20-%20Classification%20Modelling).
+Follow the rest of our project's methodology with [Visualizations](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%206%20-%20Visualizations).
