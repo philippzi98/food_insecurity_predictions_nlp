@@ -8,6 +8,8 @@ For the identification of causal features, we utilized the methodology presented
 
 You can follow their instructions [here](https://github.com/swabhs/open-sesame) to replicate the causal feature extraction for your own project. You can use the example file [sentences.txt](https://github.com/philippzi98/food_insecurity_predictions_nlp/blob/main/Step%202%20-%20Frame-Semantic%20Parsing/sentences.txt) that we have provided. Please note that input needs to be specified in a file containing one sentence per line.
 
+&nbsp;
+
 ---
 
 Follow the rest of our project's methodology with the [Keyword Expansion](https://github.com/philippzi98/food_insecurity_predictions_nlp/tree/main/Step%203%20-%20Keyword%20Expansion).
